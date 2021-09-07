@@ -9,10 +9,6 @@
       </div>
     </div>
     <div class="top-bar__title">
-      <div class="top-bar__item top-bar__item--show"
-           v-if="showMenu">
-        <top-menu></top-menu>
-      </div>
       <span class="top-bar__item"
             v-if="showSearch">
         <top-search></top-search>
